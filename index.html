@@ -130,7 +130,7 @@
           <div class="carousel-item active" data-bs-interval="3000">
             <div
               class="overflow-hidden"
-              style="height: 600px; display: flex; align-items: end"
+              style="height: 600px; display: flex; align-items: center"
             >
               <img
                 src="https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -210,9 +210,66 @@
       </div>
     </section>
 
+    <section class="py-5">
+      <div class="container">
+        <h5 class="text-center mb-1">Based on your vacation</h5>
+        <h2 class="text-center mb-5">Get Personalized Destination</h2>
+
+        <div class="rounded shadow-lg p-4 mb-5 bg-white">
+          <form>
+            <div class="row g-3 align-items-end">
+              <div class="col-md-3 col-sm-6">
+                <label class="form-label">Your Location</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Kochi, India"
+                />
+              </div>
+
+              <div class="col-md-2 col-sm-6">
+                <label class="form-label">Start date</label>
+                <input
+                  type="date"
+                  class="form-control text-muted"
+                  id="startDate"
+                />
+              </div>
+
+              <div class="col-md-2 col-sm-6">
+                <label class="form-label">End date</label>
+                <input
+                  type="date"
+                  class="form-control text-muted"
+                  id="endDate"
+                />
+              </div>
+
+              <div class="col-md-3 col-sm-6">
+                <label class="form-label">Travellers</label>
+                <select class="form-select">
+                  <option>1 Adult</option>
+                  <option>2 Adults</option>
+                  <option>3 Adults</option>
+                  <option>4+ People</option>
+                </select>
+              </div>
+
+              <div class="col-md-2 col-sm-12 text-sm-start">
+                <button type="submit" class="btn btn-primary w-100 fw-semibold">
+                  Get It
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
     <section id="top-destinations" class="py-5 bg-dark text-white">
       <div class="container">
-        <h2 class="text-center mb-4">Top Destinations</h2>
+        <h5 class="text-center mb-1">Your favourite</h5>
+        <h2 class="text-center mb-5">Top Destinations</h2>
         <div class="row g-4">
           <div class="col-md-4">
             <div class="card shadow-lg">
@@ -411,12 +468,12 @@
         <h1 class="text-center mb-4">Get in Touch</h1>
         <form class="row g-3">
           <div class="col-md-6">
-            <label for="inputPassword4" class="form-label">Your Name</label>
+            <label for="inputName" class="form-label">Your Name</label>
             <input
-              type="password"
+              type="text"
               class="form-control"
-              id="inputPassword4"
-              placeholder="Enter your name"
+              id="inputName"
+              placeholder="Enter your name here"
             />
           </div>
 
@@ -426,17 +483,20 @@
               type="email"
               class="form-control"
               id="inputEmail4"
-              placeholder="Enter your Email"
+              placeholder="Enter your Email here"
             />
           </div>
+          <div class="invalid-feedback">Please enter a valid email address</div>
 
-          <div class="col-12">
-            <label class="form-label">Your Message</label>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label"
+              >Your Message</label
+            >
             <textarea
               class="form-control"
-              rows="4"
-              placeholder="Enter your message here"
-              required
+              id="exampleFormControlTextarea1"
+              rows="5"
+              placeholder="Type your message here"
             ></textarea>
           </div>
 

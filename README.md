@@ -45,7 +45,7 @@ yournextrip/
 
 **Sayeed Munees**  
 - GitHub: [@sayeedmunees](https://github.com/sayeedmunees)  
-- LinkedIn: [linkedin.com/in/sayeedmunees](#) 
+- LinkedIn: [linkedin.com/in/sayeedmunees](https://www.linkedin.com/in/sayeedmunees/) 
 ---
 
 ## 🏷 Tags

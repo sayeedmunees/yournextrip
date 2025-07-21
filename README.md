@@ -29,18 +29,6 @@ A **travel website landing page** built entirely using **Bootstrap** — with no
 
 ---
 
-## 📁 Folder Structure
-
-yournextrip/
-├── index.html
-├── /images/
-├── /css/ # Bootstrap linked via CDN
-└── /js/ # Bootstrap JS via CDN
-
-
-
----
-
 ## 📬 Contact
 
 **Sayeed Munees**  
